@@ -1,0 +1,101 @@
+.input_text {
+    height: 40px;
+    width: 340px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.input_text_advanced {
+    height: 30px;
+    width: 540px;
+}
+
+.input_number {
+    height: 30px;
+    width: 260px;
+}
+
+.search_button {
+    height: 40px;
+
+}
+
+.grid {
+    background-color: white;
+    display: grid;
+    padding: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: auto auto auto;
+    font-family: sans-serif;
+}
+
+.grid-title {
+    background-color: white;
+    display: grid;
+    padding: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 400px auto;
+    font-family: sans-serif;
+}
+
+.grid-advanced {
+    background-color: white;
+    display: grid;
+    padding: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 200px 600px auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.grid-item-titlea {
+    background-color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: left;
+    color:rgba(165, 42, 42, 0.895);
+    font-family: sans-serif;
+}
+
+.grid-item-title1 {
+    background-color: white;
+    padding: 0px;
+    text-align: right;
+    font-family: sans-serif;
+}
+.grid-item-title2 {
+    background-color: white;
+    padding: 0px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.grid-item-right {
+    background-color: white;
+    padding: 20px;
+    text-align: right;
+    font-family: sans-serif;
+}
+.grid-item-left {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.adv_search {
+    height: 30px;
+    background-color: rgb(45, 160, 243);
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
