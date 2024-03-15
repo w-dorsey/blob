@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="grid">
+            <div class="grid-item-left">
+                <img src="google_img_logo.png" alt="Google Image Logo" width="100px">
+            </div>            
+            <div class="grid-item"></div>
+            <div class="grid-item-right">
+                <a href="index.html">Main</a>
+                <a href="img_search.html">Images</a>
+            </div>            
+        </div>
+                   
+        <div class="grid-advanced">
+            <div class="grid-item-titlea">
+                ADVANCED SEARCH
+            </div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>            
+        </div>
+        <div class="grid-advanced">
+            <div class="grid-item-left">
+                Find Pages With:
+            </div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>            
+        </div>
+        
+        <form action="https://www.google.com/search">
+            
+
+            <div class="grid-advanced">
+                <div class="grid-item-left">                    
+                    all these words:
+                </div>
+                <div class="grid-item-left">
+                    <input class="input_text_advanced" type="text" placeholder="Include All of These Words" name="as_q">
+                </div>                
+                <div class="grid-item-left">
+                    Searches for all of the words.
+                </div>
+            </div>
+
+            <div class="grid-advanced">
+                <div class="grid-item-left">
+                    this exact word or phrase:
+                </div>
+                <div class="grid-item-left">
+                    <input class="input_text_advanced" type="text" placeholder="Type Exact Phrase" name="as_epq">                    
+                </div>                
+                <div class="grid-item-left">
+                    Places quotation marks around the phrase.
+                </div>
+
+            </div>
+
+            <div class="grid-advanced">
+                <div class="grid-item-left">
+                    any of these words:
+                </div>
+                <div class="grid-item-left">
+                    <input class="input_text_advanced" type="text" placeholder="Include Any of These Words" name="as_oq">
+                </div>                
+                <div class="grid-item-left">
+                    Includes any of the words typed.
+                </div>
+            </div>
+
+            <div class="grid-advanced">
+                <div class="grid-item-left">
+                    none of these words:
+                </div>
+                <div class="grid-item-left">
+                    <input class="input_text_advanced" type="text" placeholder="Exclude These Words" name="as_eq">
+                </div>                
+                <div class="grid-item-left">
+                    Selects the words excluded (-word).
+                </div>
+            </div>
+
+            <div class="grid-advanced">
+                <div class="grid-item-left">
+                    numbers ranging from:
+                </div>
+                <div class="grid-item-left">
+                    <input class="input_number" type="number" placeholder="Number Range Min" name="as_nlo">
+                    to
+                    <input class="input_number" type="number" placeholder="Number Range Max" name="as_nhi">
+                </div>
+                <div class="grid-item-left">
+                    Selects the minimum and maximum values included.
+                </div>
+            </div>
+
+            <div class="grid-advanced">
+                <div class="grid-item-left">
+                    Select Your Language
+                </div>
+                
+                <div class="grid-item-left">
+                    <input class="input_text_advanced" name="lr" list="languages" placeholder="Languages">
+                    <datalist id="languages">
+                        <option value="lang_ar">Arabic</option>
+                        <option value="lang_en">English</option>
+                        <option value="lang_ja">Japanese</option>
+                        <option value="lang_ko">Korean</option>
+                        <option value="lang_zh">Traditional Chinese</option>
+                        </option>
+                    </datalist>
+                </div>
+                
+                <div class="grid-item-left">
+                    Selects the language.
+                </div>
+            </div>
+            <div class="grid-advanced">
+                <div class="grid-item"></div>
+                <div class="grid-item-right">
+                    <input class="adv_search" type="submit" value="Advanced Search">
+                </div>
+            </div>
+
+        </form>
+    </body>
+</html>
